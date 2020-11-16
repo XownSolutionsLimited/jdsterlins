@@ -16,6 +16,17 @@ a:hover{
  [class*="col-"] {
  padding: 0px !important; 
 }
+.btn-outline{
+
+color:  #11BDD1;
+background-color: transparent;
+background-image: none;
+border-color: #11BDD1;
+}
+.btn-outline a{
+  color:#11BDD1;
+
+}
 .categories [class*="col-"] ,#hot-deal s[class*="col-"]{
   padding: 1rem!important; 
  }
