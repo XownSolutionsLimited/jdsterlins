@@ -30,7 +30,7 @@
             <div class="col-sm-8 col-md-8 col-lg-8  text-align-center">  
                  
                 <h6  class="display-3 float-right text-red mb-4" >We Love To Hear From You</h6>  
-                <div class='col-12 mt-4'>
+                <div class='col-12 mt-4 form'>
          
             
 <form>

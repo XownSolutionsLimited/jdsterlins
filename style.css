@@ -226,6 +226,9 @@ margin: 0 7em;
   background-color: #017684;
 
 }
+.form{
+  padding: 1.5em !important;
+}
 .contact-us li{
   border-bottom: 1px solid#017684;
 
@@ -329,6 +332,10 @@ hr.light-100 {
     font-size: 2rem;
     padding: 0.7rem;
   }
+  .contact-us .row{
+   
+    flex-direction: column-reverse;
+   }
 }
 
 /*---Firefox Bug Fix --*/
@@ -400,7 +407,7 @@ Medium (md) devices (tablets, 768px and up)*/
     font-size: 0.85em;
     font-weight:600
   } 
- 
+
 
   }
 
