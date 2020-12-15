@@ -180,7 +180,59 @@ font-weight: bold;
 .head .icon,.icon:hover ,.head .nav-link{
   color: #11BDD1;
 }
+/*==about==us==*/
+.text-red{
+  color: #ED1C24 !important;
+}
+.about-us .card{
 
+  height:220px;
+  margin:0 14px 14px 14px;
+
+
+}
+.about-us .card p {
+  color:#17a2b8;
+}
+.about-us .base-row .card p,.about-us .even p{
+  color:#fff;
+}
+ .even {
+  background:url("./img/categoriesRed.jpg") ;
+} 
+.odd {
+  background:url("./img/categoriesBlue.jpg");
+} 
+.about-us .base-row .card{
+  width: 360;
+  height:360px;
+}
+.about-us  .card-img{
+border-radius: 50%;
+width: 150px;
+height: 150px;
+/* margin-bottom: -1em; */
+margin: 0 7em;
+}
+/*===contact us==*/
+
+.contact-us ul{
+  list-style: none;
+  border: 1px solid#017684;
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #017684;
+
+}
+.contact-us li{
+  border-bottom: 1px solid#017684;
+
+}
+.who-we-are{
+  max-width:1200px;
+}
 .footer {
   background-color: #017684;
   color: #ffff;
@@ -373,6 +425,10 @@ margin: 1%;
     max-width:22.2rem;
   
   }
+  .about-us{
+    padding-left: 60px;
+      padding-right: 60px;
+  }
 }
 /*Extra (xl) large devices (large desktops, 1200px and up)*/
 @media  (min-device-width: 1900px) { 
@@ -399,5 +455,10 @@ margin: 1%;
   font-size: 1rem;
   font-weight: 600;
 }
+.about-us{
+  padding-left: 60px;
+    padding-right: 60px;
+}
+
 }
 
