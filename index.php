@@ -10,16 +10,16 @@
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="img/background.png" />
-          <div class="carousel-caption">
-            <!-- <h1 class="display-2">Bootstrap</h1> -->
-            <h3>Complete website</h3>
+         <!--  <div class="carousel-caption">
+  
+            <h3></h3>
             <button type="button" class="btn btn-outline btn-lg">
 				<a href="#" class="nav-link "> View Products</a>
             </button>
             <button type="button" class="btn btn-primary btn-lg">
 				<a href="#hot-deals" class="nav-link "> Hot Deals</a>
             </button>
-          </div>
+          </div> -->
         </div>
         <div class="carousel-item">
 			<img src="img/background.png" />
@@ -31,7 +31,7 @@
     </div>
 </div>
 	<!--- Categories-->
-	<div class="container-fluid padding">
+	<div class="container-fluid">
 		<div class="row  welcome text-center">
 			<div class="col-12">
 				<h1 class="display-3 float-left">Categories</h1>
@@ -41,8 +41,8 @@
 	</div>
 
     <!--- Cards -->
-	<div class="container-fluid padding">
-		<div class="row padding categories">
+	<div class="container-fluid">
+		<div class="row categories">
 			<div class="col-sm-6 col-md-3 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Stationary1.png">
@@ -81,7 +81,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="row padding categories">
+		<div class="row categories">
 			<div class="col-sm-6 col-md-3 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Grocery1.png">
@@ -124,7 +124,7 @@
 
 
 	<!--- Hot Deals For You-->
-	<div class="container-fluid padding" id="hot-deals">
+	<div class="container-fluid" id="hot-deals">
 		<div class="row  welcome text-center">
 			<div class="col-12">
 				<h6 class="display-3 float-left">Hot Deals For You!</h6>
@@ -134,8 +134,8 @@
 	</div>
 
     <!--- productCards -->
-	<div class="container-fluid padding products">
-		<div class="row padding">
+	<div class="container-fluid products">
+		<div class="row">
 			<div class="col-sm-6 col-md-4 col-xl-3">
 				<div class="card">
 					<img class="card-img" src="img/products/pen.png">
@@ -232,8 +232,9 @@
 		
 		</div>
 	</div>
-				<div class="container-fluid padding footer ">
-					<div class="row padding">
+</div>
+				<div class="container-fluid footer ">
+					<div class="row">
 					
 					<div class="col-4">
 					<p>JD STERLEN supplies and provide high quality, 
@@ -338,6 +339,7 @@
 			</div>
 		</div>
 	</footer>
+	
   </body>
 </html>
 <script>const year=new Date().getFullYear(); document.getElementById("year").innerHTML = year</script> 
