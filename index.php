@@ -1,343 +1,315 @@
-<?php include ('header.html')?>
-<div class="container-fluid">
-    <!--- Image Slider -->
-    <div id="slides" class="carousel slide" data-ride="carousel">
-      <ul class="carousel-indicators">
-        <li data-target="#slides" data-slide-to="0" class="active"></li>
-        <li data-target="#slides" data-slide-to="1"></li>
-        <li data-target="#slides" data-slide-to="2"></li>
-      </ul>
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/background.png" />
-          <div class="carousel-caption">
-            <!-- <h1 class="display-2">Bootstrap</h1> -->
-            <h3>Complete website</h3>
-            <button type="button" class="btn btn-outline btn-lg">
-				<a href="#" class="nav-link "> View Products</a>
-            </button>
-            <button type="button" class="btn btn-primary btn-lg">
-				<a href="#hot-deals" class="nav-link "> Hot Deals</a>
-            </button>
-          </div>
-        </div>
-        <div class="carousel-item">
-			<img src="img/background.png" />
-        </div>
-        <div class="carousel-item">
-			<img src="img/background.png" />
-        </div>
-      </div>
-    </div>
-</div>
-	<!--- Categories-->
-	<div class="container-fluid padding">
-		<div class="row  welcome text-center">
-			<div class="col-12">
-				<h1 class="display-3 float-left">Categories</h1>
-			</div>
-			<hr>
-		</div>
-	</div>
+<?php
+/**
+ * CodeIgniter
+ *
+ * An open source application development framework for PHP
+ *
+ * This content is released under the MIT License (MIT)
+ *
+ * Copyright (c) 2014 - 2019, British Columbia Institute of Technology
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in
+ * all copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ * THE SOFTWARE.
+ *
+ * @package	CodeIgniter
+ * @author	EllisLab Dev Team
+ * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
+ * @copyright	Copyright (c) 2014 - 2019, British Columbia Institute of Technology (https://bcit.ca/)
+ * @license	https://opensource.org/licenses/MIT	MIT License
+ * @link	https://codeigniter.com
+ * @since	Version 1.0.0
+ * @filesource
+ */
 
-    <!--- Cards -->
-	<div class="container-fluid padding">
-		<div class="row padding categories">
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
-				<div class="card">
-					<img class="card-img-top" src="img/Stationary1.png">
-					<div class="card-body">
-				
-						<a href="#"></a><p class="card-text">Sationery</p></a>
-					
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
-				<div class="card">
-					<img class="card-img-top" src="img/Electronics1.png">
-					<div class="card-body">
-					
-						<a href="#"></a><p class="card-text">Electronics</p></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
-				<div class="card">
-					<img class="card-img-top" src="img/Laptop1.png">
-					<div class="card-body">
-					
-						<a href="#"></a><p class="card-text">Computers</p></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
-				<div class="card">
-					<img class="card-img-top" src="img/Phone1.png">
-					<div class="card-body">
-					
-						<a href="#"></a><p class="card-text">Phones</p></a>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row padding categories">
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
-				<div class="card">
-					<img class="card-img-top" src="img/Grocery1.png">
-					<div class="card-body">
-					
-						<a href="#"></a><p class="card-text">Grocery  For Business</p></a>
-					
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
-				<div class="card">
-					<img class="card-img-top" src="img/Printers1.png">
-					<div class="card-body">
-					
-						<a href="#"></a><p class="card-text printer">Photocopiers & MFD Printers</p></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
-				<div class="card">
-					<img class="card-img-top" src="img/Gift1.png">
-					<div class="card-body">
-				
-							<a href="#"></a><p class="card-text">Corporate Gift Items</p></a>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
-				<div class="card">
-					<img class="card-img-top" src="img/Product1.png">
-					<div class="card-body">
-					
-						<a href="#"></a><p class="card-text">Promotional Products</p></a>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
+/*
+ *---------------------------------------------------------------
+ * APPLICATION ENVIRONMENT
+ *---------------------------------------------------------------
+ *
+ * You can load different configurations depending on your
+ * current environment. Setting the environment also influences
+ * things like logging and error reporting.
+ *
+ * This can be set to anything, but default usage is:
+ *
+ *     development
+ *     testing
+ *     production
+ *
+ * NOTE: If you change these, also change the error_reporting() code below
+ */
+	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+
+/*
+ *---------------------------------------------------------------
+ * ERROR REPORTING
+ *---------------------------------------------------------------
+ *
+ * Different environments will require different levels of error reporting.
+ * By default development will show errors but testing and live will hide them.
+ */
+switch (ENVIRONMENT)
+{
+	case 'development':
+		error_reporting(-1);
+		ini_set('display_errors', 1);
+	break;
+
+	case 'testing':
+	case 'production':
+		ini_set('display_errors', 0);
+		if (version_compare(PHP_VERSION, '5.3', '>='))
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_DEPRECATED & ~E_STRICT & ~E_USER_NOTICE & ~E_USER_DEPRECATED);
+		}
+		else
+		{
+			error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT & ~E_USER_NOTICE);
+		}
+	break;
+
+	default:
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'The application environment is not set correctly.';
+		exit(1); // EXIT_ERROR
+}
+
+/*
+ *---------------------------------------------------------------
+ * SYSTEM DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * This variable must contain the name of your "system" directory.
+ * Set the path if it is not in the same directory as this file.
+ */
+	$system_path = 'system';
+
+/*
+ *---------------------------------------------------------------
+ * APPLICATION DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * If you want this front controller to use a different "application"
+ * directory than the default one you can set its name here. The directory
+ * can also be renamed or relocated anywhere on your server. If you do,
+ * use an absolute (full) server path.
+ * For more info please see the user guide:
+ *
+ * https://codeigniter.com/user_guide/general/managing_apps.html
+ *
+ * NO TRAILING SLASH!
+ */
+	$application_folder = 'application';
+
+/*
+ *---------------------------------------------------------------
+ * VIEW DIRECTORY NAME
+ *---------------------------------------------------------------
+ *
+ * If you want to move the view directory out of the application
+ * directory, set the path to it here. The directory can be renamed
+ * and relocated anywhere on your server. If blank, it will default
+ * to the standard location inside your application directory.
+ * If you do move this, use an absolute (full) server path.
+ *
+ * NO TRAILING SLASH!
+ */
+	$view_folder = '';
 
 
-	<!--- Hot Deals For You-->
-	<div class="container-fluid padding" id="hot-deals">
-		<div class="row  welcome text-center">
-			<div class="col-12">
-				<h6 class="display-3 float-left">Hot Deals For You!</h6>
-			</div>
-			
-		</div>
-	</div>
+/*
+ * --------------------------------------------------------------------
+ * DEFAULT CONTROLLER
+ * --------------------------------------------------------------------
+ *
+ * Normally you will set your default controller in the routes.php file.
+ * You can, however, force a custom routing by hard-coding a
+ * specific controller class/function here. For most applications, you
+ * WILL NOT set your routing here, but it's an option for those
+ * special instances where you might want to override the standard
+ * routing in a specific front controller that shares a common CI installation.
+ *
+ * IMPORTANT: If you set the routing here, NO OTHER controller will be
+ * callable. In essence, this preference limits your application to ONE
+ * specific controller. Leave the function name blank if you need
+ * to call functions dynamically via the URI.
+ *
+ * Un-comment the $routing array below to use this feature
+ */
+	// The directory name, relative to the "controllers" directory.  Leave blank
+	// if your controller is not in a sub-directory within the "controllers" one
+	// $routing['directory'] = '';
 
-    <!--- productCards -->
-	<div class="container-fluid padding products">
-		<div class="row padding">
-			<div class="col-sm-6 col-md-4 col-xl-3">
-				<div class="card">
-					<img class="card-img" src="img/products/pen.png">
-					<div class="card-body">
-					
-				
-						<hr>
-						<p class="card-text">Pen</p>
-						<p class="card-text social">#19,000 	<a href="#"><i class="icon fas fa-shopping-cart"></i></a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
-				<div class="card">
-					<img class="card-img" src="img/products/Stickernote.png">
-					<div class="card-body">
-						
-					
-						<hr>
-						<p class="card-text">Sticky Notes</p>
-						<p class="card-text social">#19,000 	<a href="#"><i class="icon fas fa-shopping-cart"></i></a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
-				<div class="card">
-					<img class="card-img" src="img/products/Bicpenpack.png">
-					<div class="card-body">
-					
-						<hr>
-						<p class="card-text">Bic Pen Pack</p>
-						<p class="card-text social">#19,000 	<a href="#"><i class="icon fas fa-shopping-cart"></i></a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
-				<div class="card">
-					<img class="card-img" src="img/products/DellE4892.png">
-					<div class="card-body">
-					
-						<hr>
-						<p class="card-text">DELL E4892</p>
-						<p class="card-text social">#19,000 	<a href="#"><i class="icon fas fa-shopping-cart"></i></a></p>
-					</div>
-				</div>
-			</div>
+	// The controller class file name.  Example:  mycontroller
+	// $routing['controller'] = '';
 
-	
-			<div class="col-sm-6 col-md-4 col-xl-3">
-				<div class="card">
-					<img class="card-img" src="img/products/MacbookPro13.png">
-					<div class="card-body">
-					
-						<hr>
-						<p class="card-text">MacBook Pro</p>
-						<p class="card-text social">#190,000 	<a href="#"><i class="icon fas fa-shopping-cart"></i></a></p>
-					</div>
-				</div>
-			</div>
-		
-			<div class="col-sm-6 col-md-4 col-xl-3">
-				<div class="card">
-					<img class="card-img" src="img/products/IphoneXMax.png">
-					<div class="card-body">
-					
-						<hr>
-						<p class="card-text">Iphone X Max</p>
-						<p class="card-text social">#19,000 	<a href="#"><i class="icon fas fa-shopping-cart"></i></a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
-				<div class="card">
-					<img class="card-img" src="img/products/Iphone6s.png">
-					<div class="card-body">
-					
-						<hr>
-						<p class="card-text">MacBook Pro</p>
-						<p class="card-text social">#19,000 	<a href="#"><i class="icon fas fa-shopping-cart"></i></a></p>
-					</div>
-				</div>
-			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
-				<div class="card">
-					<img class="card-img" src="img/products/MacbookPro16.png">
-					<div class="card-body">
-					
-						<hr>
-						<p class="card-text">Iphone 6s</p>
-						<p class="card-text social">#19,000 	<a href="#"><i class="icon fas fa-shopping-cart"></i></a></p>
-					</div>
-				</div>
-			</div>
-		
-		</div>
-	</div>
-				<div class="container-fluid padding footer ">
-					<div class="row padding">
-					
-					<div class="col-4">
-					<p>JD STERLEN supplies and provide high quality, 
-						flexible and innovative print services using the latest technologies in an environmentally
-						 responsible manner. We differ from other business office supply companies as we deliver 
-						 quality service and products. 
-						 We never apply a 'one size fits all' approach to our work. 
-						 We pride ourselves on helping you to identify all office business needs and
-						  print service requirements across your business and offer intelligent,
-						   individual solutions that deliver outstanding results
-						 </p>
-					<p style="font-weight: bold;">+234 801 234 5678  &nbsp;&nbsp;(info@jdsterlen.com.ng )</p>
-					
-					</div>
-				<div class="col-4">
-			
-					<h5> SUBSCRIBE TO OUR NEWSLETTER</h5>
-				
-					<p>Get updates on new offers and exciting promos</p>
-					<div class="form-group has-search  md-form ">
-						
-						<input type="text" class="form-control "placeholder="Enter Email Address" >
-						<button type="button" class="btn btn-primary btn-lg mt-4">
-							SUBSCRIBE
-						  </button>
-					</div> 
-				</div>
-				<div class="col-4 d-flex">
-					<div>
-						<h5 class="mb-2">QUICK LINKS</h5>
-						<ul class="navbar-nav">
-							<li class=" nav-item">
-							  <a class="nav-link " href="#" >Products</a>
-							</li>
-							<li class=" nav-item">
-								<a class="nav-link " href="#" >Blog</a>
-							  </li>
-							  <li class=" nav-item">
-								<a class="nav-link " href="#" >Phones and Laptops</a>
-							  </li>
-							  <li class=" nav-item">
-								<a class="nav-link " href="#hot-deals" >Hot deals</a>
-							  </li>
-							 
-							
-						  </ul>
-						
-					</div>
-					<div class="mb-2">
-						<h5>COMPANY</h5>
-						<ul class="navbar-nav">
-							<li class=" nav-item">
-							  <a class="nav-link " href="#" >About JD Sterlen </a>
-							</li>
-							<li class=" nav-item">
-								<a class="nav-link " href="#" >FAQs</a>
-							  </li>
-							  <li class=" nav-item">
-								<a class="nav-link " href="#" >Contact Us</a>
-							  </li>
-							  <li class=" nav-item">
-								<a class="nav-link " href="#" >Work With Us</a>
-							  </li>
-							  <li class=" nav-item">
-								<a class="nav-link " href="#" >Terms and Conditions</a>
-							  </li>
-							  <li class=" nav-item">
-								<a class="nav-link " href="#" >Privacy policy</a>
-							  </li>
-							  <li class=" nav-item">
-							<a class="nav-link" href="#">Sign Up</a>
-							</li>
-							<li class=" nav-item">
-							<a class="nav-link" href="#">Customer Care</a>
-							</li>
-						  </ul>
-						
-					
-					</div>
-				</div>
-			</div>
-				<div class="d-flex flex-wrap col-12">
-					<hr class="light-100">
-			
-					<p class="col-6">&copy;<i id="year"></i>JD STERLENS</p>
-			
-			
-					<ul class="navbar-nav col-6  d-flex flex-wrap flex-row justify-content-end">
-						<li class=" nav-item">
-							<a class="nav-link " href="" ><i class="icon fab fa-facebook-f"></i></a>
-						  </li>
-						  <li class=" nav-item">
-							<a class="nav-link " href="" ><i class="icon fab fa-twitter"></i></a>
-						  </li>
-						  <li class=" nav-item">
-							<a class="nav-link " href="" ><i class="icon fab fa-linkedin-in"></i></a>
-						  </li>
-					
-					</ul>
-			
-				</div>
-			</div>
-		</div>
-	</footer>
-  </body>
-</html>
-<script>const year=new Date().getFullYear(); document.getElementById("year").innerHTML = year</script> 
+	// The controller function you wish to be called.
+	// $routing['function']	= '';
+
+
+/*
+ * -------------------------------------------------------------------
+ *  CUSTOM CONFIG VALUES
+ * -------------------------------------------------------------------
+ *
+ * The $assign_to_config array below will be passed dynamically to the
+ * config class when initialized. This allows you to set custom config
+ * items or override any default config values found in the config.php file.
+ * This can be handy as it permits you to share one application between
+ * multiple front controller files, with each file containing different
+ * config values.
+ *
+ * Un-comment the $assign_to_config array below to use this feature
+ */
+	// $assign_to_config['name_of_config_item'] = 'value of config item';
+
+
+
+// --------------------------------------------------------------------
+// END OF USER CONFIGURABLE SETTINGS.  DO NOT EDIT BELOW THIS LINE
+// --------------------------------------------------------------------
+
+/*
+ * ---------------------------------------------------------------
+ *  Resolve the system path for increased reliability
+ * ---------------------------------------------------------------
+ */
+
+	// Set the current directory correctly for CLI requests
+	if (defined('STDIN'))
+	{
+		chdir(dirname(__FILE__));
+	}
+
+	if (($_temp = realpath($system_path)) !== FALSE)
+	{
+		$system_path = $_temp.DIRECTORY_SEPARATOR;
+	}
+	else
+	{
+		// Ensure there's a trailing slash
+		$system_path = strtr(
+			rtrim($system_path, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		).DIRECTORY_SEPARATOR;
+	}
+
+	// Is the system path correct?
+	if ( ! is_dir($system_path))
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your system folder path does not appear to be set correctly. Please open the following file and correct this: '.pathinfo(__FILE__, PATHINFO_BASENAME);
+		exit(3); // EXIT_CONFIG
+	}
+
+/*
+ * -------------------------------------------------------------------
+ *  Now that we know the path, set the main path constants
+ * -------------------------------------------------------------------
+ */
+	// The name of THIS file
+	define('SELF', pathinfo(__FILE__, PATHINFO_BASENAME));
+
+	// Path to the system directory
+	define('BASEPATH', $system_path);
+
+	// Path to the front controller (this file) directory
+	define('FCPATH', dirname(__FILE__).DIRECTORY_SEPARATOR);
+
+	// Name of the "system" directory
+	define('SYSDIR', basename(BASEPATH));
+
+	// The path to the "application" directory
+	if (is_dir($application_folder))
+	{
+		if (($_temp = realpath($application_folder)) !== FALSE)
+		{
+			$application_folder = $_temp;
+		}
+		else
+		{
+			$application_folder = strtr(
+				rtrim($application_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(BASEPATH.$application_folder.DIRECTORY_SEPARATOR))
+	{
+		$application_folder = BASEPATH.strtr(
+			trim($application_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your application folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
+
+	define('APPPATH', $application_folder.DIRECTORY_SEPARATOR);
+
+	// The path to the "views" directory
+	if ( ! isset($view_folder[0]) && is_dir(APPPATH.'views'.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.'views';
+	}
+	elseif (is_dir($view_folder))
+	{
+		if (($_temp = realpath($view_folder)) !== FALSE)
+		{
+			$view_folder = $_temp;
+		}
+		else
+		{
+			$view_folder = strtr(
+				rtrim($view_folder, '/\\'),
+				'/\\',
+				DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+			);
+		}
+	}
+	elseif (is_dir(APPPATH.$view_folder.DIRECTORY_SEPARATOR))
+	{
+		$view_folder = APPPATH.strtr(
+			trim($view_folder, '/\\'),
+			'/\\',
+			DIRECTORY_SEPARATOR.DIRECTORY_SEPARATOR
+		);
+	}
+	else
+	{
+		header('HTTP/1.1 503 Service Unavailable.', TRUE, 503);
+		echo 'Your view folder path does not appear to be set correctly. Please open the following file and correct this: '.SELF;
+		exit(3); // EXIT_CONFIG
+	}
+
+	define('VIEWPATH', $view_folder.DIRECTORY_SEPARATOR);
+
+/*
+ * --------------------------------------------------------------------
+ * LOAD THE BOOTSTRAP FILE
+ * --------------------------------------------------------------------
+ *
+ * And away we go...
+ */
+require_once BASEPATH.'core/CodeIgniter.php';
