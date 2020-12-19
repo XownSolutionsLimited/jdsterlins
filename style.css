@@ -14,6 +14,14 @@ padding:0 60px;
   overflow: visible;
   color:#ED1C24;
 }
+.contain{
+  position: relative;
+}
+.contained{
+      position: absolute;
+    bottom: 0;
+}
+
 .mid p{
   vertical-align: middle;
 }
@@ -78,7 +86,7 @@ margin-right: 8px;
 .bg{
  background-color:  #bd2130;
  color:#fff;
- height:25px;
+/*  height:25px; */
 }
   /*.navbar li {
  padding-right: 1.4em; 
@@ -87,10 +95,10 @@ margin-right: 8px;
   text-transform: uppercase;
 
 }
-.nav-link {
+/* .nav-link {
   font-size: 1.1em !important;
 
-}
+} */
 .carousel{
   padding:0 20px ;
 }
@@ -449,10 +457,10 @@ Medium (md) devices (tablets, 768px and up)*/
       font-size:14px;
   
   }
-  .nav-link {
+  /* .nav-link {
     font-size: 14px!important;
     font-weight: 600;
-  }
+  } */
   .categories p{
     font-size: 0.85em;
     font-weight:600
@@ -465,11 +473,28 @@ Medium (md) devices (tablets, 768px and up)*/
   }
 
   }
+  @media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) {
+    .wrapper{
+      padding: 0;
+    }
+    
+.contain{
+  position: relative;
+}
+.contained{
+      position: relative;
+  
+}
+  }
 
 /*ipad*/
 @media only screen and (device-width: 768px) {
   /* For general iPad layouts */
- 
+ .display-3{
+   font-size:1rem;
+ }
   .has-search .form-control {
    height:28px;
   margin-right: 0px;
@@ -496,6 +521,12 @@ margin: 1%;
 .mid p,.btn-lg{
   font-size:14px !important;
 }
+.nav-link,p{
+  font-size: 10px;
+}
+h5{
+  font-size: 14px;
+}
 }
 /*Large (lg) devices (desktops, 992px and up)
  }
@@ -515,6 +546,9 @@ margin: 1%;
     padding-left: 40px;
     padding-right:40px;
   }
+  .nav-link{
+    font-size: 12px;
+  }
 }
 /*ipadpro etc*/
 @media only screen 
@@ -523,6 +557,9 @@ margin: 1%;
   .products .card-img {
     margin: 0;
 }
+.display-3{
+   font-size:1.1rem;
+ }
   }
 /*Extra (xl) large devices (large desktops, 1200px and up)*/
 @media  (min-device-width: 1900px) { 

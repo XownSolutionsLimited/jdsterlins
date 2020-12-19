@@ -1,4 +1,5 @@
 <?php include ('header.html')?>
+<div class='wrapper'>
 <div class="container-fluid">
     <!--- Image Slider -->
     <div id="slides" class="carousel slide" data-ride="carousel">
@@ -122,20 +123,6 @@
 		</div>
 	</div>
 
-/*
- *---------------------------------------------------------------
- * ERROR REPORTING
- *---------------------------------------------------------------
- *
- * Different environments will require different levels of error reporting.
- * By default development will show errors but testing and live will hide them.
- */
-switch (ENVIRONMENT)
-{
-	case 'development':
-		error_reporting(-1);
-		ini_set('display_errors', 1);
-	break;
 
 	<!--- Hot Deals For You-->
 	<div class="container-fluid" id="hot-deals">
@@ -247,7 +234,9 @@ switch (ENVIRONMENT)
 		</div>
 	</div>
 </div>
-				<div class="container-fluid footer ">
+</div>
+	<div class="wrapper footer ">
+				<div class="container-fluid ">
 					<div class="row">
 					
 					<div class="col-4">
@@ -352,6 +341,7 @@ switch (ENVIRONMENT)
 				</div>
 			</div>
 		</div>
+			</div>
 	</footer>
 	
   </body>
