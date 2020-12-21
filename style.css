@@ -21,7 +21,10 @@ padding:0 60px;
       position: absolute;
     bottom: 0;
 }
-
+.categories .card{
+  min-width: 163px;
+  min-height: 183px;
+}
 .mid p{
   vertical-align: middle;
 }
@@ -52,7 +55,7 @@ border-color: #11BDD1;
   padding-left:8px;
   padding-right:8px;
 } */
-.categories [class*="col-"] ,#hot-deal s[class*="col-"]{
+.categories [class*="col-"] ,#hot-deals[class*="col-"]{
   padding: 1rem!important; 
  }
 .head li{
@@ -358,6 +361,9 @@ hr.light-100 {
   p,input::placeholder,.nav-link,.icon{
     font-size:10px;
   }
+  .categories [class*="col-"], #hot-deal s[class*="col-"]{
+    padding:1rem 4px !important;
+  }
   .display-3{
     font-size:1rem;
   }
@@ -468,6 +474,9 @@ Medium (md) devices (tablets, 768px and up)*/
     padding-right: 0px !important;
 
   }
+  .categories [class*="col-"], #hot-deals[class*="col-"]{
+    padding:1rem 6px !important;
+  }
   p{
   
       font-size:14px;
@@ -507,6 +516,9 @@ Medium (md) devices (tablets, 768px and up)*/
 /*ipad*/
 @media only screen and (device-width: 768px) {
   /* For general iPad layouts */
+  .categories [class*="col-"], #hot-deals[class*="col-"]{
+    padding:1rem 6px !important;
+  }
  .display-3{
    font-size:1rem;
  }

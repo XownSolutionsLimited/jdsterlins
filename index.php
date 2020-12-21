@@ -44,7 +44,7 @@
     <!--- Cards -->
 	<div class="container-fluid">
 		<div class="row categories">
-			<div class="col-6 col-md-3 ">
+			<div class="col-6 col-md-4 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Stationary1.png">
 					<div class="card-body">
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-3 ">
+			<div class="col-6 col-md-4 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Electronics1.png">
 					<div class="card-body">
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-3 ">
+			<div class="col-6 col-md-4 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Laptop1.png">
 					<div class="card-body">
@@ -72,7 +72,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-3 ">
+			<div class="col-6 col-md-4 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Phone1.png">
 					<div class="card-body">
@@ -81,9 +81,8 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row categories">
-			<div class="col-6 col-md-3 ">
+	
+			<div class="col-6 col-md-4 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Grocery1.png">
 					<div class="card-body">
@@ -93,7 +92,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-3 ">
+			<div class="col-6 col-md-4 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Printers1.png">
 					<div class="card-body">
@@ -102,7 +101,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-3 ">
+			<div class="col-6 col-md-4 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Gift1.png">
 					<div class="card-body">
@@ -111,7 +110,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-3 ">
+			<div class="col-6 col-md-4 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Product1.png">
 					<div class="card-body">
@@ -121,7 +120,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+
 
 
 	<!--- Hot Deals For You-->
