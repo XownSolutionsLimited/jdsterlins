@@ -9,6 +9,7 @@ body {
 }
 .wrapper{
 padding:0 60px !important;
+
 }
 .has-search svg:not(:root).svg-inline--fa {
   overflow: visible;
@@ -570,6 +571,7 @@ margin: 1%;
 h5{
   font-size: 14px;
 }
+
 }
 /*Large (lg) devices (desktops, 992px and up)
  }
