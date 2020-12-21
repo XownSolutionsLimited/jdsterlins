@@ -361,6 +361,13 @@ hr.light-100 {
   .display-3{
     font-size:1rem;
   }
+  .has-search .form-control {
+    padding-left: 2.375rem;
+    height: 36px;
+  }
+  .vision p{
+    padding-left: 4px;
+  }
   h5,.btn-lg{
     font-size: 12px;
   }  
@@ -390,6 +397,9 @@ hr.light-100 {
   .contact-us .row{
    
     flex-direction: column-reverse;
+   }
+   .footer li .icon{
+    margin:0 4px; 
    }
   /*  .mid{
     padding-left:4px;

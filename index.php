@@ -324,8 +324,9 @@
 			<div class="col-6">
 					<p >&copy;<i id="year"></i>JD STERLENS</p>
 </div>
+
 		
-					<ul class="navbar-nav d-flex flex-wrap  col-6
+					<ul class="navbar-nav d-flex flex-wrap flex-row  col-6
 					 justify-content-end">
 						<li class=" nav-item">
 							<a class="nav-link " href="" ><i class="icon fab fa-facebook-f"></i></a>
