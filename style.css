@@ -607,6 +607,11 @@ h5{
  }
   }
 /*Extra (xl) large devices (large desktops, 1200px and up)*/
+@media (min-device-width:1200px){
+  .menu .nav-link {
+    margin-right: 3em;
+}
+}
 @media  (min-device-width: 1900px) { 
   /* .mid{
     padding-left:8px;
