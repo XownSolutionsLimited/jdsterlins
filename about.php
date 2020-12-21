@@ -27,7 +27,7 @@
                  
                 <h6  class="display-3 float-right text-red" >Business office Supplies and Print Management</h6>  
                 <div class='col-12 d-flex justify-content-center'>
-            <p style="width:50%">
+            <p class="spaced">
             Our aim is to provide you, our client with an efficient service, which is quality assured, using the latest technology available. This gives the client flexibility to reduce the cost of production and where required energy consumption.
 
 We work with you to forecast your work schedule and identify cost savings wherever possible using economies of scale, as well as proposing flexible solutions that allow projects to be carried out in a cost effective manner.

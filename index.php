@@ -134,7 +134,7 @@
 	</div>
 
     <!--- productCards -->
-	<div class="container-fluid products mb-4">
+	<div class="container-fluid products ">
 		<div class="row">
 			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">

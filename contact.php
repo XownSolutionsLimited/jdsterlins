@@ -13,7 +13,7 @@
 	<div class="container-fluid padding contact-us">
 		<div class="row padding ">
 			
-			<div class="col-sm-4s col-md-4 col-lg-4 d-flex justify-content-center">
+			<div class="col-sm-12 col-md-4 col-lg-4 d-flex justify-content-center">
             <ul>
 				<li class=" nav-item social">
 					<a class="nav-link " href="" ><i class="icon fab fa-facebook-f"></i></a>

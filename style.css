@@ -251,9 +251,13 @@ font-weight: bold;
 .odd {
   background:url("./img/categoriesBlue.jpg");
 } 
+.about-us  .card{
+  width: 360;
+  height:150px;
+}
 .about-us .base-row .card{
   width: 360;
-  height:360px;
+  height:150px;
 }
 .about-us  .card-img{
 border-radius: 50%;
@@ -261,6 +265,9 @@ width: 150px;
 height: 150px;
 /* margin-bottom: -1em; */
 margin: 0 7em;
+}
+.spaced{
+  width: 80%;
 }
 /*===contact us==*/
 
@@ -362,7 +369,7 @@ hr.light-100 {
 }
 @media (max-width: 576px) {
   p,input::placeholder,.nav-link,.icon{
-    font-size:10px;
+    font-size:12px;
   }
   .categories [class*="col-"], #hot-deal s[class*="col-"]{
     padding:1rem 4px !important;
@@ -410,6 +417,11 @@ hr.light-100 {
    .footer li .icon{
     margin:0 4px; 
    }
+   .padding {
+    padding-bottom: 1rem;
+    padding-left: 10px;
+    padding-right:10px;
+  }
   /*  .mid{
     padding-left:4px;
     padding-right:4px'
@@ -496,8 +508,8 @@ Medium (md) devices (tablets, 768px and up)*/
 
   .padding {
     padding-bottom: 2rem;
-    padding-left: 20px;
-    padding-right:20px;
+    padding-left: 0px;
+    padding-right:0px;
   }
   }
   @media only screen 
@@ -598,6 +610,9 @@ h5{
     padding-left:8px;
     padding-right:8px;
   } */
+  .spaced{
+    width:50%;
+  }
   .categories .card{
     max-width:30rem;
   
