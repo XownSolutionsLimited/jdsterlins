@@ -44,7 +44,7 @@
     <!--- Cards -->
 	<div class="container-fluid">
 		<div class="row categories">
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
+			<div class="col-6 col-md-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Stationary1.png">
 					<div class="card-body">
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
+			<div class="col-6 col-md-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Electronics1.png">
 					<div class="card-body">
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
+			<div class="col-6 col-md-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Laptop1.png">
 					<div class="card-body">
@@ -72,7 +72,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
+			<div class="col-6 col-md-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Phone1.png">
 					<div class="card-body">
@@ -83,7 +83,7 @@
 			</div>
 		</div>
 		<div class="row categories">
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
+			<div class="col-6 col-md-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Grocery1.png">
 					<div class="card-body">
@@ -93,7 +93,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
+			<div class="col-6 col-md-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Printers1.png">
 					<div class="card-body">
@@ -102,7 +102,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
+			<div class="col-6 col-md-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Gift1.png">
 					<div class="card-body">
@@ -111,7 +111,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-3 col-lg-3 ">
+			<div class="col-6 col-md-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Product1.png">
 					<div class="card-body">
@@ -137,7 +137,7 @@
     <!--- productCards -->
 	<div class="container-fluid products">
 		<div class="row">
-			<div class="col-sm-6 col-md-4 col-xl-3">
+			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">
 					<img class="card-img" src="img/products/pen.png">
 					<div class="card-body">
@@ -149,7 +149,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
+			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">
 					<img class="card-img" src="img/products/Stickernote.png">
 					<div class="card-body">
@@ -161,7 +161,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
+			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">
 					<img class="card-img" src="img/products/Bicpenpack.png">
 					<div class="card-body">
@@ -172,7 +172,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
+			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">
 					<img class="card-img" src="img/products/DellE4892.png">
 					<div class="card-body">
@@ -185,7 +185,7 @@
 			</div>
 
 	
-			<div class="col-sm-6 col-md-4 col-xl-3">
+			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">
 					<img class="card-img" src="img/products/MacbookPro13.png">
 					<div class="card-body">
@@ -197,7 +197,7 @@
 				</div>
 			</div>
 		
-			<div class="col-sm-6 col-md-4 col-xl-3">
+			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">
 					<img class="card-img" src="img/products/IphoneXMax.png">
 					<div class="card-body">
@@ -208,7 +208,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
+			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">
 					<img class="card-img" src="img/products/Iphone6s.png">
 					<div class="card-body">
@@ -219,7 +219,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-sm-6 col-md-4 col-xl-3">
+			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">
 					<img class="card-img" src="img/products/MacbookPro16.png">
 					<div class="card-body">
