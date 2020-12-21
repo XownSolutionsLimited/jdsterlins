@@ -1,6 +1,6 @@
 <?php include ('header.html')?>
-<div class='wrapper'>
-<div class="container-fluid">
+
+<div class="container-fluid wrapper">
     <!--- Image Slider -->
     <div id="slides" class="carousel slide" data-ride="carousel">
       <ul class="carousel-indicators">
@@ -32,7 +32,7 @@
     </div>
 </div>
 	<!--- Categories-->
-	<div class="container-fluid">
+	<div class="container-fluid wrapper">
 		<div class="row  welcome text-center">
 			<div class="col-12">
 				<h1 class="display-3 float-left">Categories</h1>
@@ -42,7 +42,7 @@
 	</div>
 
     <!--- Cards -->
-	<div class="container-fluid">
+	<div class="container-fluid wrapper">
 		<div class="row categories">
 			<div class="col-6 col-md-4 col-lg-3 ">
 				<div class="card">
@@ -121,10 +121,10 @@
 			</div>
 		</div>
 
-
+	</div>
 
 	<!--- Hot Deals For You-->
-	<div class="container-fluid " id="hot-deals">
+	<div class="container-fluid wrapper " id="hot-deals">
 		<div class="row  welcome text-center">
 			<div class="col-12">
 				<h6 class="display-3 float-left">Hot Deals For You!</h6>
@@ -134,7 +134,7 @@
 	</div>
 
     <!--- productCards -->
-	<div class="container-fluid products ">
+	<div class="container-fluid products wrapper ">
 		<div class="row">
 			<div class="col-6 col-md-6 col-xl-3">
 				<div class="card">
@@ -232,8 +232,7 @@
 		
 		</div>
 	</div>
-</div>
-</div>
+	
 	<div class="wrapper footer ">
 				<div class="container-fluid ">
 					<div class="row">

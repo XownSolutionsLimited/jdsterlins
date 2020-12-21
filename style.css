@@ -8,7 +8,7 @@ body {
   color:#707070;
 }
 .wrapper{
-padding:0 60px;
+padding:0 60px !important;
 }
 .has-search svg:not(:root).svg-inline--fa {
   overflow: visible;
@@ -516,7 +516,7 @@ Medium (md) devices (tablets, 768px and up)*/
   and (min-device-width: 320px) 
   and (max-device-width: 568px) {
     .wrapper{
-      padding: 0;
+      padding: 15px !important;
     }
     
 .contain{
