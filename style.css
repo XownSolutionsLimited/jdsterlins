@@ -355,9 +355,12 @@ hr.light-100 {
   } */
 }
 @media (max-width: 576px) {
-  p{
-    font-size:7px;
+  p,input::placeholder,.nav-link,.icon{
+    font-size:10px;
   }
+  h5,.btn-lg{
+    font-size: 12px;
+  }  
   .carousel-caption {
     top: 40%;
   }
@@ -510,6 +513,7 @@ margin: 1%;
   padding-left:2px;
   padding-right:2px'
 } */
+
 .vision p{
   font-size:14px;
 }
@@ -520,7 +524,7 @@ margin: 1%;
 .mid p,.btn-lg{
   font-size:14px !important;
 }
-.nav-link,p{
+.nav-link,p,input::placeholder{
   font-size: 10px;
 }
 h5{

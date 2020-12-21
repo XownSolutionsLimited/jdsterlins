@@ -98,7 +98,7 @@
 					<img class="card-img-top" src="img/Printers1.png">
 					<div class="card-body">
 					
-						<a href="#"></a><p class="card-text printer">Photocopiers & MFD Printers</p></a>
+						<a href="#"></a><p class="card-text printer">Copiers & Printers</p></a>
 					</div>
 				</div>
 			</div>
@@ -239,7 +239,7 @@
 				<div class="container-fluid ">
 					<div class="row">
 					
-					<div class="col-4">
+					<div class="col-md-4 col-sm-12">
 					<p>JD STERLEN supplies and provide high quality, 
 						flexible and innovative print services using the latest technologies in an environmentally
 						 responsible manner. We differ from other business office supply companies as we deliver 
@@ -252,7 +252,7 @@
 					<p style="font-weight: bold;">+234 801 234 5678  &nbsp;&nbsp;(info@jdsterlen.com.ng )</p>
 					
 					</div>
-				<div class="col-4">
+				<div class="col-md-4 col-sm-12">
 			
 					<h5> SUBSCRIBE TO OUR NEWSLETTER</h5>
 				
@@ -265,8 +265,8 @@
 						  </button>
 					</div> 
 				</div>
-				<div class="col-4 d-flex">
-					<div>
+				<div class="col-md-4 col-sm-12 d-flex">
+					<div class="pr-4">
 						<h5 class="mb-2">QUICK LINKS</h5>
 						<ul class="navbar-nav">
 							<li class=" nav-item">
@@ -321,11 +321,12 @@
 			</div>
 				<div class="d-flex flex-wrap col-12">
 					<hr class="light-100">
-			
-					<p class="col-6">&copy;<i id="year"></i>JD STERLENS</p>
-			
-			
-					<ul class="navbar-nav col-6  d-flex flex-wrap flex-row justify-content-end">
+			<div class="col-6">
+					<p >&copy;<i id="year"></i>JD STERLENS</p>
+</div>
+		
+					<ul class="navbar-nav d-flex flex-wrap  col-6
+					 justify-content-end">
 						<li class=" nav-item">
 							<a class="nav-link " href="" ><i class="icon fab fa-facebook-f"></i></a>
 						  </li>
