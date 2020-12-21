@@ -44,7 +44,7 @@
     <!--- Cards -->
 	<div class="container-fluid">
 		<div class="row categories">
-			<div class="col-6 col-md-4 ">
+			<div class="col-6 col-md-4 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Stationary1.png">
 					<div class="card-body">
@@ -54,7 +54,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-4 ">
+			<div class="col-6 col-md-4 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Electronics1.png">
 					<div class="card-body">
@@ -63,7 +63,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-4 ">
+			<div class="col-6 col-md-4 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Laptop1.png">
 					<div class="card-body">
@@ -72,7 +72,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-4 ">
+			<div class="col-6 col-md-4 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Phone1.png">
 					<div class="card-body">
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 	
-			<div class="col-6 col-md-4 ">
+			<div class="col-6 col-md-4 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Grocery1.png">
 					<div class="card-body">
@@ -92,7 +92,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-4 ">
+			<div class="col-6 col-md-4 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Printers1.png">
 					<div class="card-body">
@@ -101,7 +101,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-4 ">
+			<div class="col-6 col-md-4 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Gift1.png">
 					<div class="card-body">
@@ -110,7 +110,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-6 col-md-4 ">
+			<div class="col-6 col-md-4 col-lg-3 ">
 				<div class="card">
 					<img class="card-img-top" src="img/Product1.png">
 					<div class="card-body">
@@ -124,7 +124,7 @@
 
 
 	<!--- Hot Deals For You-->
-	<div class="container-fluid" id="hot-deals">
+	<div class="container-fluid " id="hot-deals">
 		<div class="row  welcome text-center">
 			<div class="col-12">
 				<h6 class="display-3 float-left">Hot Deals For You!</h6>
@@ -134,7 +134,7 @@
 	</div>
 
     <!--- productCards -->
-	<div class="container-fluid products">
+	<div class="container-fluid products mb-4">
 		<div class="row">
 			<div class="col-6 col-md-4 col-xl-3">
 				<div class="card">

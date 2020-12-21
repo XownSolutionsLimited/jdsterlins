@@ -17,6 +17,9 @@ padding:0 60px;
 .contain{
   position: relative;
 }
+.menu .nav-link{
+  font-weight: bold;
+}
 .contained{
       position: absolute;
     bottom: 0;
@@ -627,7 +630,7 @@ h5{
   padding-right:60px;
 }
 .menu .nav-link{
-  margin-right: 3.6em;;
+  margin-right: 3em;;
 
 }
 }
